@@ -1,1 +1,1 @@
-web: gunicorn Scalie.wsgi --log-file -
+web: gunicorn Scalie.wsgi.py --log-file -
